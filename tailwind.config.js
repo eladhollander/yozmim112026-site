@@ -5,7 +5,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     // shared ui-kit components also emit Tailwind classes — must be scanned
-    "../../packages/ui-kit/src/**/*.{js,ts,jsx,tsx}",
+    "./ui-kit-pkg/src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: { center: true, padding: "2rem" },
