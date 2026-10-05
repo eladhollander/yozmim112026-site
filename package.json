@@ -1,0 +1,29 @@
+{
+  "name": "@eladhollander/yozmim112026",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SeaNovation '\u05d9\u05d5\u05d6\u05de\u05d9\u05dd \u05e1\u05d8\u05d0\u05e8\u05d8\u05d0\u05e4' November 2026 cohort schedule \u2014 yozmim112026.eladhollander.com",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@eladhollander/ui-kit": "file:./ui-kit-pkg",
+    "lucide-react": "^1.52.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

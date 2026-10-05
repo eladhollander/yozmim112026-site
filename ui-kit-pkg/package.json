@@ -1,0 +1,24 @@
+{
+  "name": "@eladhollander/ui-kit",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shared React components + RTL theme scaffolding for eladhollander static sites.",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./theme.css": "./src/theme.css"
+  },
+  "scripts": {
+    "typecheck": "tsc -b"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "typescript": "~6.0.2"
+  }
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap");
+
+/* shared base: RTL setup + token scaffolding + element defaults */
+@import "@eladhollander/ui-kit/theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------------------------------------------------
+   yozmim112026 theme — dark navy surface, cyan brand.
+   Extracted verbatim from the original Zite build's :root custom properties.
+   Change these values to re-theme the whole site.
+   ----------------------------------------------------------------------- */
+:root {
+  --font-sans: "Assistant", "Arial", sans-serif;
+  --font-serif: ui-serif;
+
+  --background: 210 65% 17%;
+  --foreground: 210 20% 96%;
+  --muted: 210 50% 22%;
+  --muted-foreground: 200 20% 65%;
+  --popover: 210 60% 14%;
+  --popover-foreground: 210 20% 96%;
+  --border: 210 40% 28%;
+  --input: 210 50% 20%;
+  --card: 210 55% 14%;
+  --card-foreground: 210 20% 96%;
+  --primary: 187 90% 50%;
+  --primary-foreground: 210 65% 10%;
+  --secondary: 210 40% 24%;
+  --secondary-foreground: 210 20% 96%;
+  --accent: 160 70% 45%;
+  --accent-foreground: 210 65% 10%;
+  --destructive: 0 75% 55%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 187 90% 50%;
+  --radius: 0.625rem;
+}

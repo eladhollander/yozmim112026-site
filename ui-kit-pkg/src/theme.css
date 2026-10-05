@@ -1,0 +1,65 @@
+/* ---------------------------------------------------------------------------
+   ui-kit base theme — shared by every site in this monorepo.
+
+   This file only declares the SCAFFOLDING: which design tokens exist, the RTL
+   setup, and the element defaults that read those tokens. Each site sets its
+   OWN token VALUES in its `src/index.css` :root block, so sites can look
+   completely different while sharing all components.
+   --------------------------------------------------------------------------- */
+
+:root {
+  /* surface */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 10%;
+
+  /* muted / secondary surfaces */
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+  --secondary: 0 0% 96%;
+  --secondary-foreground: 0 0% 10%;
+
+  /* brand */
+  --primary: 0 0% 10%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 0 0% 90%;
+  --accent-foreground: 0 0% 10%;
+
+  /* status */
+  --destructive: 0 75% 55%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* lines & shape */
+  --border: 0 0% 88%;
+  --input: 0 0% 88%;
+  --ring: 0 0% 10%;
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  /* every site in this repo is Hebrew / right-to-left */
+  direction: rtl;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans, "Arial", sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
